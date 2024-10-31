@@ -16,11 +16,11 @@ section{
 }
 
 img{
-    height: 200px;
+    height: 200px; /*altera o tamanho das img que foram usadas nas miniaturas dos videos*/
 }
 
 .categoria-videos{
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
+    display: flex; /*todos videos na mesma linha */
+    overflow-x: auto; /*nao deixa o video sair pra direita e nem a pagina ter barra de rolagem */
+    gap: 10px; /*coloca um espaço entre os videos */
 }
