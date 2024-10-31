@@ -2,3 +2,11 @@ body{
     background-color: black;
     color: azure;
 }
+
+section{
+    background: rgb(245, 229, 107) ; /*cor do fundo da seção*/
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    display: flex; /* torna flexivel = poe um do lado do outro */
+    justify-content: center; /*centraliza*/
+}
